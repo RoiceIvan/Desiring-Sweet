@@ -814,7 +814,7 @@ section{
 /* auto slide START HERE */
 
 .mySlides{
-    margin-top: 17rem;
+    margin-top: 13rem;
     margin-bottom:0rem;  
 }
 
@@ -887,6 +887,11 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
+
+
+
+
 
 
 
