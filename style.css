@@ -169,15 +169,19 @@ section{
     }
 }
 
-.home{
+
+/* ANO TO PUTANGINA?? */
+/* .home{
     padding-top: 14rem;
     background: url(img/home-bg1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
-}
+} */
 
-.home .slides-container .slide{
+
+/* Ignore This!! */
+/* .home .slides-container .slide{
     display:flex;
     align-items: center;
     flex-wrap: wrap;
@@ -245,7 +249,7 @@ section{
 
 .home #next-slide{
     right: 2rem;
-}
+} */
 
 .banner-container{
     display: grid;
@@ -574,39 +578,40 @@ section{
 
 
 /* Blog section */
+/* yung .customization is .blogs talaga tinatamad lang palitan ulit */
 
-.blogs .box-container{
+/* .customization .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
 }
 
-.blogs .box-container .box{
+.customization .box-container .box{
     border: 0.1rem solid rgba(0,0,0,0.7);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
 }
 
-.blogs .box-container .box:hover .img img{
+.customization .box-container .box:hover .img img{
     transform: scale(1.2);
 } 
 
-.blogs .box-container .box .img{
+.customization .box-container .box .img{
     height:25rem;
     width:100%;
     overflow:hidden;
 }
 
-.blogs .box-container .box .img img{
+.customization .box-container .box .img img{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.blogs .box-container .box .content{
+.customization .box-container .box .content{
     padding: 2rem 1.5rem;
 }
 
-.blogs .box-container .box .content .icons{
+.customization .box-container .box .content .icons{
     border-bottom: 0.1rem solid rgba(0,0,0,0.1);
     padding-bottom: 1.7rem;
     margin-bottom: 1.7rem;
@@ -615,31 +620,31 @@ section{
     justify-content: space-between;
 }
 
-.blogs .box-container .box .content .icons a{
+.customization .box-container .box .content .icons a{
     font-size: 1.4rem;
     color:#222;
 }
 
-.blogs .box-container .box .content .icons a:hover{
+.customization .box-container .box .content .icons a:hover{
     color: var(--brown);
 }
 
-.blogs .box-container .box .content .icons a i{
+.customization .box-container .box .content .icons a i{
     color: #222;
     padding-right: .5rem;
 }
 
-.blogs .box-container .box .content h3{
+.customization .box-container .box .content h3{
     font-size: 2.2rem;
     color: #222;
 }
 
-.blogs .box-container .box .content p{
+.customization .box-container .box .content p{
     font-size: 1.4rem;
     color:#222;
     line-height: 2;
     padding: 1rem 0;
-}
+} */
 
 
 
@@ -813,15 +818,20 @@ section{
 
 /* auto slide START HERE */
 
-.mySlides{
-    margin-top: 13rem;
-    margin-bottom:0rem;  
-}
-
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
 img {vertical-align: middle;}
+
+.mySlides{
+    margin-top: 15rem;
+    margin-bottom:0rem; 
+}
+
+.mySlides img{
+    border-radius: 3%;
+}
+
 
 /* Slideshow container */
 .slideshow-container {
