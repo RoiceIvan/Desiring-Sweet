@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desiring sweets</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="loginstyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".login-form").hide();
+            $(".login").css("background","none")
+            
+            $(".login").click(function(){
+                $(".signup-form").hide();
+                $(".login-form").show();
+                $(".signup").css("background","none")
+                $(".login").css("background","#fff")
+            });
+
+            $(".signup").click(function(){
+                $(".signup-form").show();
+                $(".login-form").hide();
+                $(".signup").css("background","#fff")
+                $(".login").css("background","none")
+            });
+
+            $(".btn").click(function(){
+                $(".input").val("")
+            });
+        });
+    </script>
+</head>
+
+<body>
+    
+<div class="container">
+    <div class="signup">sign up</div>
+    <div class="login">login</div>
+
+    <div class="signup-form">
+        <input type="text" placeholder="Your Name Address" class="input"><br>
+        <input type="text" placeholder="Choose a UserName" class="input"><br>
+        <input type="password" placeholder="Choose a Password" class="input"><br>
+        <div class="btn">create account</div>
+    </div>
+
+    <div class="login-form">
+        <input type="text" class="input" placeholder="Email or Username"><br>
+        <input type="password" class="input" placeholder="password"><br>
+        <div class="btn">log in</div>
+        <span><a href="#">I Forgot my Username or Password</a></span>
+    </div>
+</div>
+
+
+
+
+  <!-- header section start page --> 
+      <body>
+          <header class="header">
+              <a href="#" class="logo"> <img src="img/desiring sweets logo 2.png" width="40" height="40"></i> Desiring sweets </a>
+          
+              <nav class="navbar" >
+                  <a href="index.html" Target="_self">home</a>    
+                  <a href="#shop" href="">shop</a>     
+                  <a href="#about">about</a>
+                  <a href="#review">review</a>
+                  <a href="#contact">contact</a>
+                  <a href="#contact" target="_blank">Cake Customization</a>
+          
+              </nav>
+          
+              <div class="icons">
+                  <div id="menu-btn" class="fas fa-bars"></div>
+                  <div id="search-btn" class="fas fa-search"></div>
+                  <div id="cart-btn" class="fas fa-shopping-cart"></div>
+                  <div id="login-btn" class="fas fa-user"></div>
+              </div>
+          </header>
+          
+  <script src="main.js"></script>
+      </body>
+  </html>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
