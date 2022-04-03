@@ -136,12 +136,24 @@ section{
 }
 
 .header .navbar a:hover{
-    color: #222;
+    color: rgb(0, 0, 0);
+}
+
+.header .icons a{
+    font-size: 2.5rem;
+    margin-left: 1.7rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.header .icons a:hover{
+    color:#222;
 }
 
 .header .icons div{
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     margin-left: 1.7rem;
+    margin-top: 6rem;
     cursor: pointer;
     color: #fff;
 }
@@ -673,7 +685,7 @@ body {font-family: Verdana, sans-serif;}
 img {vertical-align: middle;}
 
 .mySlides{
-    margin-top: 15rem;
+    margin-top: 16.5rem;
     margin-bottom:0rem; 
 }
 
@@ -748,30 +760,6 @@ img {vertical-align: middle;}
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* media queries */
 @media (max-width: 991px){
     html{ 
@@ -824,6 +812,7 @@ img {vertical-align: middle;}
 
     }
 }
+
 
 @media (max-width: 450px){
     html{
