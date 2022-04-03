@@ -7,22 +7,6 @@ document.querySelector('#menu-btn').onclick = () => {
 window.onscroll = () => {
     navbar.classList.remove('active');
 }
-
-let slides = document.querySelectorAll('.home .slides-container .slide');
-let index = 0;
-
-function next(){
-    slides[index].classList.remove('active');
-    index = (index + 1) % slides.length;
-    slides[index].classList.add('active');
- }
-
- function prev(){
-    slides[index].classList.remove('active');
-    index = (index - 1 + slides.length) % slides.length;
-    slides[index].classList.add('active');
- }
-
     var slideIndex = 0;
     showSlides();
     
@@ -42,3 +26,27 @@ function next(){
       dots[slideIndex-1].className += " active";
       setTimeout(showSlides, 3500); // Change image every 2 seconds
     }
+
+
+
+
+
+
+
+
+
+// IDK ABOUT THIS ONE IGNORE!!
+//     let slides = document.querySelectorAll('.home .slides-container .slide');
+// let index = 0;
+
+// function next(){
+//     slides[index].classList.remove('active');
+//     index = (index + 1) % slides.length;
+//     slides[index].classList.add('active');
+//  }
+
+//  function prev(){
+//     slides[index].classList.remove('active');
+//     index = (index - 1 + slides.length) % slides.length;
+//     slides[index].classList.add('active');
+//  }
