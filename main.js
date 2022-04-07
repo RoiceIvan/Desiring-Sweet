@@ -30,11 +30,6 @@ window.onscroll = () => {
 
 
 
-
-
-
-
-
 // IDK ABOUT THIS ONE IGNORE!!
 //     let slides = document.querySelectorAll('.home .slides-container .slide');
 // let index = 0;
