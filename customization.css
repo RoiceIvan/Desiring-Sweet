@@ -200,7 +200,7 @@ section{
     font-size:18px;
     font-weight: bolder;
     color:#fff;
-    margin-top: 0rem;
+    margin-top: 3rem;
     margin-bottom:1rem; 
 }
 
@@ -231,6 +231,10 @@ section{
     color: rgb(0, 0, 0);
 }
 
+.header .icons{
+    margin-top: 5rem;
+}
+
 .header .icons a{
     font-size: 2.5rem;
     margin-left: 1.7rem;
@@ -258,6 +262,13 @@ section{
     display:none;
 
 }
+
+/* EXPERIMENT */
+
+
+
+
+
 
 @keyframes fadeLeft{
     0%{
