@@ -13,40 +13,6 @@
 
 </head>
 
-<!-- Slideshow Picutre -->
-    <body>
-     
-    <div class="slideshow-container">
-    
-    <div class="mySlides fade">
-        <img src="img/heartcake.jpg" style="width:100%">
-        <!-- <div class="numbertext">1 / 3</div> --> 
-         <!-- <div class="text">Caption Text</div> -->
-    </div>
-    
-    <div class="mySlides fade">
-        <img src="img/sample.jpg " style="width:100%">
-        <!-- <div class="numbertext">2 / 3</div> -->
-        <!-- <div class="text">Caption Two</div> -->
-    </div>
-    
-    <div class="mySlides fade">
-        <img src="img/cake3.jpg" style="width:100%">
-        <!-- <div class="numbertext">3 / 3</div> -->
-        <!-- <div class="text">Caption Three</div> -->
-    </div>
-    
-    </div>
-    <br>
-    
-    <div style="text-align:center">
-      <span class="dot"></span> 
-      <span class="dot"></span> 
-      <span class="dot"></span> 
-    </div>
-
-</body>
-
     <!-- header section start page -->
 
 <header class="header">
@@ -82,6 +48,39 @@
 
 </header>
 
+<!-- Slideshow Picutre -->
+<body>
+     
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+        <img src="img/heartcake.jpg" style="width:100%">
+        <!-- <div class="numbertext">1 / 3</div> --> 
+         <!-- <div class="text">Caption Text</div> -->
+    </div>
+    
+    <div class="mySlides fade">
+        <img src="img/sample.jpg " style="width:100%">
+        <!-- <div class="numbertext">2 / 3</div> -->
+        <!-- <div class="text">Caption Two</div> -->
+    </div>
+    
+    <div class="mySlides fade">
+        <img src="img/cake3.jpg" style="width:100%">
+        <!-- <div class="numbertext">3 / 3</div> -->
+        <!-- <div class="text">Caption Three</div> -->
+    </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+
+</body>
 
 <section class="banner-container">
     <div class="banner">
@@ -89,7 +88,7 @@
         <div class="content">
         <span>limitied sales</span>
         <h3>upto 50% off</h3>
-        <a href="#" class="btn">shop now</a>
+        <a class="btn">shop now</a>
     </div>
     </div>
 
@@ -98,7 +97,7 @@
         <div class="content">
         <span>limitied sales</span>
         <h3>upto 50% off</h3>
-        <a href="#" class="btn">shop now</a>
+        <a class="btn">shop now</a>
     </div>
     </div>
 
@@ -107,7 +106,7 @@
         <div class="content">
         <span>limitied sales</span>
         <h3>upto 50% off</h3>
-        <a href="#" class="btn">shop now</a>
+        <a class="btn">shop now</a>
     </div>
     </div>
 
@@ -117,27 +116,31 @@
 
 <!--Category Start-->
 
-<div class="heading" id = "shop">
+<div class="heading"  id="shop">
     <h1>our products</h1>
     </div>
 
 <!--Products section-->
 
 <section class="products">
-
+    
     <h1 class="title"> our <span>products</span> <a href="#"></a> </h1>
 
     <div class="box-container">
 
-        <div class="box">
+        <div class="box" id="blur">
             <div class="icons">
-                <a href="#" class="fas fa-shopping-cart"></a>
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
+                <a class="fas fa-shopping-cart"></a>
+                <a class="fas fa-heart"></a>
+                <a class="fas fa-eye" onclick="toggle()"></a>
             </div>
+
+
             <div class="img">
                 <img src="img/unicorn.jpg" alt="">
             </div>
+
+
             <div class="content">
                 <h3>berries citrus fruits apples</h3>
                 <div class="price">300php</div> 
@@ -153,9 +156,9 @@
 
         <div class="box">
             <div class="icons">
-                <a href="#" class="fas fa-shopping-cart"></a>
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
+                <a class="fas fa-shopping-cart"></a>
+                <a class="fas fa-heart"></a>
+                <a class="fas fa-eye" onclick="toggle2()"></a>
             </div>
             <div class="img">
                 <img src="img/cheesecake.jpg" alt="">
@@ -175,9 +178,9 @@
 
         <div class="box">
             <div class="icons">
-                <a href="#" class="fas fa-shopping-cart"></a>
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
+                <a class="fas fa-shopping-cart"></a>
+                <a class="fas fa-heart"></a>
+                <a class="fas fa-eye" onclick="toggle3()"></a>
             </div>
             <div class="img">
                 <img src="img/inspiringcake.jpg" alt="">
@@ -197,9 +200,9 @@
 
         <div class="box">
             <div class="icons">
-                <a href="#" class="fas fa-shopping-cart"></a>
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
+                <a class="fas fa-shopping-cart"></a>
+                <a class="fas fa-heart"></a>
+                <a class="fas fa-eye" onclick="toggle4()"></a>
             </div>
             <div class="img">
                 <img src="img/christmascake.jpg" alt="">
@@ -219,9 +222,9 @@
         
         <div class="box">
             <div class="icons">
-                <a href="#" class="fas fa-shopping-cart"></a>
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
+                <a class="fas fa-shopping-cart"></a>
+                <a class="fas fa-heart"></a>
+                <a class="fas fa-eye" onclick="toggle5()"></a>
             </div>
             <div class="img">
                 <img src="img/bossbaby.jpg" alt="">
@@ -241,9 +244,9 @@
 
         <div class="box">
             <div class="icons">
-                <a href="#" class="fas fa-shopping-cart"></a>
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
+                <a hclass="fas fa-shopping-cart"></a>
+                <a class="fas fa-heart"></a>
+                <a class="fas fa-eye" onclick="toggle6()"></a>
             </div>
             <div class="img">
                 <img src="img/brownies.jpg" alt="">
@@ -263,9 +266,9 @@
 
         <div class="box">
             <div class="icons">
-                <a href="#" class="fas fa-shopping-cart"></a>
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
+                <a class="fas fa-shopping-cart"></a>
+                <a class="fas fa-heart"></a>
+                <a class="fas fa-eye" onclick="toggle7()"></a>
             </div>
             <div class="img">
                 <img src="img/heartcake.jpg" alt="">
@@ -285,9 +288,9 @@
 
         <div class="box">
             <div class="icons">
-                <a href="#" class="fas fa-shopping-cart"></a>
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
+                <a class="fas fa-shopping-cart"></a>
+                <a class="fas fa-heart"></a>
+                <a class="fas fa-eye" onclick="toggle8()"></a>
             </div>
             <div class="img">
                 <img src="img/sample12.jpg" alt="">
@@ -305,6 +308,152 @@
             </div>
         </div>
 
+        <div id="popup">
+            <h2>Hello!</h2>
+            <img src="img/unicorn.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum </p>
+            <a id="shop" onclick="toggle()">Close</a>
+        </div>
+
+
+        <div id="popup2">
+            <h2>Hello!</h2>
+            <img src="img/cheesecake.jpg" alt="">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum</p>
+            <a id="shop" onclick="toggle2()">Close</a>
+        </div>
+
+        <div id="popup3">
+            <h2>Hello!</h2>
+            <img src="img/inspiringcake.jpg" alt="">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum</p>
+            <a id="shop" onclick="toggle3()">Close</a>
+        </div>
+
+        <div id="popup4">
+            <h2>Hello!</h2>
+            <img src="img/christmascake.jpg" alt="">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum</p>
+            <a id="shop" onclick="toggle4()">Close</a>
+        </div>
+
+        <div id="popup5">
+            <h2>Hello!</h2>
+            <img src="img/bossbaby.jpg" alt="">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum</p>
+            <a id="shop" onclick="toggle5()">Close</a>
+        </div>
+
+
+        <div id="popup6">
+            <h2>Hello!</h2>
+            <img src="img/brownies.jpg" alt="">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum</p>
+            <a id="shop" onclick="toggle6()">Close</a>
+        </div>
+
+        <div id="popup7">
+            <h2>Hello!</h2>
+            <img src="img/heartcake.jpg" alt="">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum</p>
+            <a id="shop" onclick="toggle7()">Close</a>
+        </div>
+
+        <div id="popup8">
+            <h2>Hello!</h2>
+            <img src="img/sample12.jpg" alt="">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum</p>
+            <a id="shop" onclick="toggle8()">Close</a>
+        </div>
+
+    <script>
+        function toggle(popup){
+
+            var popup = document.getElementById('popup')
+            popup.classList.toggle('active')      
+        }
+
+        function toggle2(popup2){
+            var popup2 = document.getElementById('popup2');
+            popup2.classList.toggle('active2');    
+        }
+
+        function toggle3(popup3){
+            var popup3 = document.getElementById('popup3');
+            popup3.classList.toggle('active3');    
+        }
+
+        function toggle4(popup4){
+            var popup4 = document.getElementById('popup4');
+            popup4.classList.toggle('active4');    
+        }
+
+        function toggle5(popup5){
+            var popup5 = document.getElementById('popup5');
+            popup5.classList.toggle('active5');    
+        }
+
+        function toggle6(popup6){
+            var popup6 = document.getElementById('popup6');
+            popup6.classList.toggle('active6');    
+        }
+
+        function toggle7(popup7){
+            var popup7 = document.getElementById('popup7');
+            popup7.classList.toggle('active7');    
+        }
+
+        function toggle8(popup8){
+            var popup8 = document.getElementById('popup8');
+            popup8.classList.toggle('active8');    
+        }
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+ 
 </div>
 </section>
 
@@ -345,45 +494,45 @@
         <div class="box">
             <img src="img/gallery-img-1.jpg" alt="">
             <div class="icons">
-                <a href="#" class="fas fa-eye"></a>
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share-alt"></a>
+                <a class="fas fa-eye"></a>
+                <a class="fas fa-heart"></a>
+                <a class="fas fa-share-alt"></a>
             </div>
         </div>
 
         <div class="box">
             <img src="img/gallery-img-2.jpg" alt="">
             <div class="icons">
-                <a href="#" class="fas fa-eye"></a>
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share-alt"></a>
+                <a class="fas fa-eye"></a>
+                <a class="fas fa-heart"></a>
+                <a class="fas fa-share-alt"></a>
             </div>
         </div>
 
         <div class="box">
             <img src="img/gallery-img-3.jpg" alt="">
             <div class="icons">
-                <a href="#" class="fas fa-eye"></a>
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share-alt"></a>
+                <a class="fas fa-eye"></a>
+                <a class="fas fa-heart"></a>
+                <a class="fas fa-share-alt"></a>
             </div>
         </div>
 
         <div class="box">
             <img src="img/gallery-img-4.jpg" alt="">
             <div class="icons">
-                <a href="#" class="fas fa-eye"></a>
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share-alt"></a>
+                <a class="fas fa-eye"></a>
+                <a class="fas fa-heart"></a>
+                <a class="fas fa-share-alt"></a>
             </div>
         </div>
 
         <div class="box">
             <img src="img/gallery-img-5.jpg" alt="">
             <div class="icons">
-                <a href="#" class="fas fa-eye"></a>
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share-alt"></a>
+                <a class="fas fa-eye"></a>
+                <a class="fas fa-heart"></a>
+                <a class="fas fa-share-alt"></a>
             </div>
         </div>
 
@@ -391,9 +540,9 @@
         <div class="box">
             <img src="img/gallery-img-6.jpg" alt="">
             <div class="icons">
-                <a href="#" class="fas fa-eye"></a>
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-share-alt"></a>
+                <a class="fas fa-eye"></a>
+                <a class="fas fa-heart"></a>
+                <a class="fas fa-share-alt"></a>
             </div>
         </div>
 
@@ -600,9 +749,9 @@
 
         <div class="box">
             <h3>extra links</h3>
-            <a href="#"> <i class="fab fa-facebook"></i>  facebook </a>
+            <a href="https://www.facebook.com/DESIRINGSWEETS" target="_blank"> <i class="fab fa-facebook" ></i>  facebook </a>
             <a href="#"> <i class="fab fa-twitter"></i>  twitter </a>
-            <a href="#"> <i class="fab fa-instagram"></i>  instagram </a>
+            <a href="https://www.instagram.com/desiring_sweets/" target="_blank"> <i class="fab fa-instagram"></i>  instagram </a>
             <a href="#"> <i class="fab fa-linkedin"></i>  linkedin </a>
             <a href="#"> <i class="fab fa-pinterest"></i>  pinterest </a>
 
@@ -619,7 +768,7 @@
     </div>
 </section>
 
-<section class="credit">created by Roice Ivan ||  all rights reserved </section>
+<section class="credit">created by Roice pogi so much ||  all rights reserved </section>
 
     <script src="main.js"></script>
 </body>
