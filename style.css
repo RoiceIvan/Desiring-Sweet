@@ -43,6 +43,7 @@ html{
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    
 }
 
 section{
@@ -91,7 +92,7 @@ section{
 }
 
 .header{
-    position: fixed;
+    position: sticky;
     top: 0%;
     left: 0%;
     right: 0%;
@@ -258,6 +259,7 @@ section{
 
 /* products */
 
+
 .products .box-container{
     display: -ms-grid;
     display: grid;
@@ -291,6 +293,7 @@ section{
     justify-content: center;
     background: rgba(243, 243, 243, 0.8);
     gap: 1rem;
+    cursor:pointer;
 }
 
 .products .box-container .box .icons a{
@@ -675,7 +678,362 @@ section{
     background: var(--brown);
     color:#fff;
     font-size: 2rem;
+    
 }
+
+/* pop up*/
+
+
+#popup{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 400px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+#popup a{
+    margin: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    background: var(--brown);
+    color: #fff;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+#popup a:hover{
+    background: black;
+}
+
+#popup.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transform: 0.5;
+    
+}
+
+#popup img{
+    height: 20rem;
+    width: 30rem;
+    overflow: hidden;
+}
+
+/* POP UP 2 */
+#popup2{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+#popup2 a{
+    margin: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    background: var(--brown);
+    color: #fff;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+#popup2 a:hover{
+    background: black;
+}
+
+#popup2.active2{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transform: 0.5;
+    
+}
+
+#popup2 img{
+    height: 20rem;
+    width: 30rem;
+    overflow: hidden;
+}
+
+
+/* POP UP 3 */
+
+#popup3{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+#popup3 a{
+    margin: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    background: var(--brown);
+    color: #fff;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+#popup3 a:hover{
+    background: black;
+}
+
+#popup3.active3{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transform: 0.5;
+    
+}
+
+#popup3 img{
+    height: 20rem;
+    width: 30rem;
+    overflow: hidden;
+}
+
+/* pop up 4 */
+
+#popup4{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+#popup4 a{
+    margin: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    background: var(--brown);
+    color: #fff;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+#popup4 a:hover{
+    background: black;
+}
+
+#popup4.active4{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transform: 0.5;
+    
+}
+
+#popup4 img{
+    height: 20rem;
+    width: 30rem;
+    overflow: hidden;
+}
+
+/* POP  UP 5 */
+
+#popup5{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+#popup5 a{
+    margin: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    background: var(--brown);
+    color: #fff;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+#popup5 a:hover{
+    background: black;
+}
+
+#popup5.active5{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transform: 0.5;
+    
+}
+
+#popup5 img{
+    height: 20rem;
+    width: 30rem;
+    overflow: hidden;
+}
+
+/* POP UP 6 */
+
+#popup6{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+#popup6 a{
+    margin: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    background: var(--brown);
+    color: #fff;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+#popup6 a:hover{
+    background: black;
+}
+
+#popup6.active6{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transform: 0.5;
+    
+}
+
+#popup6 img{
+    height: 20rem;
+    width: 30rem;
+    overflow: hidden;
+}
+
+/* POP UP 7 */
+
+#popup7{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+#popup7 a{
+    margin: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    background: var(--brown);
+    color: #fff;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+#popup7 a:hover{
+    background: black;
+}
+
+#popup7.active7{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transform: 0.5;
+    
+}
+
+#popup7 img{
+    height: 20rem;
+    width: 30rem;
+    overflow: hidden;
+}
+
+/* POP UP 8 */
+#popup8{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+#popup8 a{
+    margin: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    background: var(--brown);
+    color: #fff;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+#popup8 a:hover{
+    background: black;
+}
+
+#popup8.active8{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transform: 0.5;
+    
+}
+
+#popup8 img{
+    height: 20rem;
+    width: 30rem;
+    overflow: hidden;
+}
+
 
 /* auto slide START HERE */
 
@@ -685,7 +1043,7 @@ body {font-family: Verdana, sans-serif;}
 img {vertical-align: middle;}
 
 .mySlides{
-    margin-top: 16.5rem;
+    margin-top: 3rem;
     margin-bottom:0rem; 
 }
 
@@ -760,6 +1118,7 @@ img {vertical-align: middle;}
 }
 
 
+
 /* media queries */
 @media (max-width: 991px){
     html{ 
@@ -781,9 +1140,77 @@ img {vertical-align: middle;}
         right:8rem;
 
     }
+
+    #popup{
+        width: 100%;
+    }
+
+    #popup2{
+        width: 100%;
+    }
+
+    #popup3{
+        width: 100%;
+    }
+
+    #popup4{
+        width: 100%;
+    }
+
+    #popup5{
+        width: 100%;
+    }
+
+    #popup6{
+        width: 100%;
+    }
+
+    #popup7{
+        width: 100%;
+    }
+
+    #popup8{
+        width: 100%;
+    }
+    .heading{
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px){
+
+    #popup{
+        width: 100%;
+    }
+
+    #popup2{
+        width: 100%;
+    }
+
+    #popup3{
+        width: 100%;
+    }
+
+    #popup4{
+        width: 100%;
+    }
+
+    #popup5{
+        width: 100%;
+    }
+
+    #popup6{
+        width: 100%;
+    }
+
+    #popup7{
+        width: 100%;
+    }
+
+    #popup8{
+        width: 100%;
+    }
+
     #menu-btn{
         display: inline-block;
     }
@@ -811,10 +1238,46 @@ img {vertical-align: middle;}
         border-radius: .5rem;
 
     }
+    .heading{
+        width: 100%;
+    }
 }
 
 
 @media (max-width: 450px){
+
+    #popup{
+        width: 100%;
+    }
+
+    #popup2{
+        width: 100%;
+    }
+
+    #popup3{
+        width: 100%;
+    }
+
+    #popup4{
+        width: 100%;
+    }
+
+    #popup5{
+        width: 100%;
+    }
+
+    #popup6{
+        width: 100%;
+    }
+
+    #popup7{
+        width: 100%;
+    }
+
+    #popup8{
+        width: 100%;
+    }
+
     html{
         font-size: 50%;
     }
@@ -829,5 +1292,9 @@ img {vertical-align: middle;}
     }
     .products .box-container .box img{
        width: 100%; 
+    }
+
+    .heading{
+        width: 100%;
     }
 }
