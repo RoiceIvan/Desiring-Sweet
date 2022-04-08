@@ -202,7 +202,7 @@ section{
     font-weight: bolder;
     color:#fff;
     margin-top: 4rem;
-    margin-bottom:1rem; 
+    margin-bottom:3rem; 
 }
 
 .header .logo i{
@@ -339,7 +339,10 @@ section{
           font-size: 2rem;
           display: block;
           border-radius: .5rem;
-  
+      }
+
+      .container{
+          width: 100%;
       }
   }
 
