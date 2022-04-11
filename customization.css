@@ -194,14 +194,15 @@ section{
     justify-content: space-between;
     padding: 0% 5%;
     box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    height: 2cm;
 }
 
 .header .logo{
     font-size:18px;
     font-weight: bolder;
-    color:#fff;
-    margin-top: 3rem;
-    margin-bottom:3rem; 
+    color: #fcfcfc;
+    margin-top: 3.5rem;
+    margin-bottom:1.7rem; 
 }
 
 .header .logo i{
@@ -232,14 +233,14 @@ section{
 }
 
 .header .icons{
-    margin-top: 5rem;
+    margin-top: 1.5rem;
 }
 
 .header .icons a{
     font-size: 2.5rem;
     margin-left: 1.7rem;
     cursor: pointer;
-    color: #fff;
+    color: #ffffff;
 }
 
 .header .icons a:hover{
@@ -249,9 +250,9 @@ section{
 .header .icons div{
     font-size: 2.0rem;
     margin-left: 1.7rem;
-    margin-top: 0rem;
+    margin-top: 4rem;
     cursor: pointer;
-    color: #fff;
+    color: #ffffff;
 }
 
 .header .icons div:hover{
