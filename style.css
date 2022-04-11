@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Syne+Tactile&display=swap');
 
-
  :root{
     --brown: #833517;
  }
 
 body{
-    background: #B43F11;   
+    background: #B43F11; 
 }
 
 .header a{
     height: 9vh;
 }
+
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -103,14 +103,15 @@ section{
     justify-content: space-between;
     padding: 0% 5%;
     box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    height: 2cm;
 }
 
 .header .logo{
     font-size:18px;
     font-weight: bolder;
-    color:#fff;
-    margin-top: 3rem;
-    margin-bottom:0rem; 
+    color: #fcfcfc;
+    margin-top: 5rem;
+    margin-bottom:1rem; 
 }
 
 .header .logo i{
@@ -132,7 +133,7 @@ section{
 
 .header .navbar a{
     font-size: 1.7rem;
-    color: #fff;
+    color: #ffffff;
     margin: 0 1rem;
 }
 
@@ -144,7 +145,7 @@ section{
     font-size: 2.5rem;
     margin-left: 1.7rem;
     cursor: pointer;
-    color: #fff;
+    color: #ffffff;
 }
 
 .header .icons a:hover{
@@ -156,7 +157,7 @@ section{
     margin-left: 1.7rem;
     margin-top: 6rem;
     cursor: pointer;
-    color: #fff;
+    color: #ffffff;
 }
 
 .header .icons div:hover{
@@ -683,17 +684,27 @@ section{
 
 /* pop up*/
 
+#popup h2{
+    font-size: 2.5rem;
+}
+
+#popup p{
+    font-size: 1.4rem;
+    color:black;
+    line-height: 1.5;
+    text-align: left;
+    text-transform: none;
+}
 
 #popup{
     position: fixed;
     top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 800px;
-    height: 400px;
+    width: 600px;
     padding: 50px;
     box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
-    background: white;
+    background: var(--brown);
     visibility: hidden;
     opacity: 0;
     transition: 0.5s ease;
@@ -703,14 +714,14 @@ section{
     margin: 1rem;
     display: inline-block;
     padding: .8rem 3rem;
-    background: var(--brown);
-    color: #fff;
+    background: white;
+    color: rgb(0, 0, 0);
     font-size: 1.7rem;
     cursor: pointer;
 }
 
 #popup a:hover{
-    background: black;
+    background: rgb(88, 82, 82);
 }
 
 #popup.active{
@@ -728,6 +739,19 @@ section{
 }
 
 /* POP UP 2 */
+
+#popup2 h2{
+    font-size: 2.5rem;
+}
+
+#popup2 p{
+    font-size: 1.4rem;
+    color:black;
+    line-height: 1.5;
+    text-align: left;
+    text-transform: none;
+}
+
 #popup2{
     position: fixed;
     top: 40%;
@@ -736,7 +760,7 @@ section{
     width: 600px;
     padding: 50px;
     box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
-    background: white;
+    background: var(--brown);
     visibility: hidden;
     opacity: 0;
     transition: 0.5s ease;
@@ -747,7 +771,7 @@ section{
     display: inline-block;
     padding: .8rem 3rem;
     background: var(--brown);
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 1.7rem;
     cursor: pointer;
 }
@@ -773,6 +797,18 @@ section{
 
 /* POP UP 3 */
 
+#popup3 h2{
+    font-size: 2.5rem;
+}
+
+#popup3 p{
+    font-size: 1.4rem;
+    color:black;
+    line-height: 1.5;
+    text-align: left;
+    text-transform: none;
+}
+
 #popup3{
     position: fixed;
     top: 40%;
@@ -781,7 +817,7 @@ section{
     width: 600px;
     padding: 50px;
     box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
-    background: white;
+    background: var(--brown);
     visibility: hidden;
     opacity: 0;
     transition: 0.5s ease;
@@ -791,8 +827,8 @@ section{
     margin: 1rem;
     display: inline-block;
     padding: .8rem 3rem;
-    background: var(--brown);
-    color: #fff;
+    background: white;
+    color: rgb(0, 0, 0);
     font-size: 1.7rem;
     cursor: pointer;
 }
@@ -817,6 +853,18 @@ section{
 
 /* pop up 4 */
 
+#popup4 h2{
+    font-size: 2.5rem;
+}
+
+#popup4 p{
+    font-size: 1.4rem;
+    color:black;
+    line-height: 1.5;
+    text-align: left;
+    text-transform: none;
+}
+
 #popup4{
     position: fixed;
     top: 40%;
@@ -825,7 +873,7 @@ section{
     width: 600px;
     padding: 50px;
     box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
-    background: white;
+    background: var(--brown);
     visibility: hidden;
     opacity: 0;
     transition: 0.5s ease;
@@ -835,14 +883,14 @@ section{
     margin: 1rem;
     display: inline-block;
     padding: .8rem 3rem;
-    background: var(--brown);
-    color: #fff;
+    background: white;
+    color: rgb(0, 0, 0);
     font-size: 1.7rem;
     cursor: pointer;
 }
 
 #popup4 a:hover{
-    background: black;
+    background: rgb(88, 82, 82);
 }
 
 #popup4.active4{
@@ -861,6 +909,18 @@ section{
 
 /* POP  UP 5 */
 
+#popup5 h2{
+    font-size: 2.5rem;
+}
+
+#popup5 p{
+    font-size: 1.4rem;
+    color:black;
+    line-height: 1.5;
+    text-align: left;
+    text-transform: none;
+}
+
 #popup5{
     position: fixed;
     top: 40%;
@@ -869,7 +929,7 @@ section{
     width: 600px;
     padding: 50px;
     box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
-    background: white;
+    background: var(--brown);
     visibility: hidden;
     opacity: 0;
     transition: 0.5s ease;
@@ -879,14 +939,15 @@ section{
     margin: 1rem;
     display: inline-block;
     padding: .8rem 3rem;
-    background: var(--brown);
-    color: #fff;
+    background: white;
+    color: rgb(0, 0, 0);
     font-size: 1.7rem;
     cursor: pointer;
 }
 
+
 #popup5 a:hover{
-    background: black;
+    background: rgb(88, 82, 82);
 }
 
 #popup5.active5{
@@ -905,6 +966,18 @@ section{
 
 /* POP UP 6 */
 
+#popup6 h2{
+    font-size: 2.5rem;
+}
+
+#popup6 p{
+    font-size: 1.4rem;
+    color:black;
+    line-height: 1.5;
+    text-align: left;
+    text-transform: none;
+}
+
 #popup6{
     position: fixed;
     top: 40%;
@@ -913,24 +986,25 @@ section{
     width: 600px;
     padding: 50px;
     box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
-    background: white;
+    background: var(--brown);
     visibility: hidden;
     opacity: 0;
     transition: 0.5s ease;
 }
 
+
 #popup6 a{
     margin: 1rem;
     display: inline-block;
     padding: .8rem 3rem;
-    background: var(--brown);
-    color: #fff;
+    background: white;
+    color: rgb(0, 0, 0);
     font-size: 1.7rem;
     cursor: pointer;
 }
 
 #popup6 a:hover{
-    background: black;
+    background: rgb(88, 82, 82);
 }
 
 #popup6.active6{
@@ -949,6 +1023,18 @@ section{
 
 /* POP UP 7 */
 
+#popup7 h2{
+    font-size: 2.5rem;
+}
+
+#popup7 p{
+    font-size: 1.4rem;
+    color:black;
+    line-height: 1.5;
+    text-align: left;
+    text-transform: none;
+}
+
 #popup7{
     position: fixed;
     top: 40%;
@@ -957,7 +1043,7 @@ section{
     width: 600px;
     padding: 50px;
     box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
-    background: white;
+    background: var(--brown);
     visibility: hidden;
     opacity: 0;
     transition: 0.5s ease;
@@ -967,14 +1053,14 @@ section{
     margin: 1rem;
     display: inline-block;
     padding: .8rem 3rem;
-    background: var(--brown);
-    color: #fff;
+    background: white;
+    color: rgb(0, 0, 0);
     font-size: 1.7rem;
     cursor: pointer;
 }
 
 #popup7 a:hover{
-    background: black;
+    background: rgb(88, 82, 82);
 }
 
 #popup7.active7{
@@ -992,6 +1078,19 @@ section{
 }
 
 /* POP UP 8 */
+
+#popup h2{
+    font-size: 2.5rem;
+}
+
+#popup8 p{
+    font-size: 1.4rem;
+    color:black;
+    line-height: 1.5;
+    text-align: left;
+    text-transform: none;
+}
+
 #popup8{
     position: fixed;
     top: 40%;
@@ -1000,7 +1099,7 @@ section{
     width: 600px;
     padding: 50px;
     box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
-    background: white;
+    background: var(--brown);
     visibility: hidden;
     opacity: 0;
     transition: 0.5s ease;
@@ -1010,16 +1109,15 @@ section{
     margin: 1rem;
     display: inline-block;
     padding: .8rem 3rem;
-    background: var(--brown);
-    color: #fff;
+    background: white;
+    color: rgb(0, 0, 0);
     font-size: 1.7rem;
     cursor: pointer;
 }
 
 #popup8 a:hover{
-    background: black;
+    background: rgb(88, 82, 82);
 }
-
 #popup8.active8{
     top: 50%;
     visibility: visible;
@@ -1050,6 +1148,11 @@ img {vertical-align: middle;}
 .mySlides img{
     border-radius: 3%;
 }
+
+/* .mySlides img{
+    height: 60rem;
+    width: 60rem;
+} */
 
 
 /* Slideshow container */
@@ -1143,6 +1246,8 @@ img {vertical-align: middle;}
 
     #popup{
         width: 100%;
+        height: 100%;
+    
     }
 
     #popup2{
@@ -1175,12 +1280,20 @@ img {vertical-align: middle;}
     .heading{
         width: 100%;
     }
+
+    .mySlides img{
+        width: 0rem;
+        height: 60rem;
+    }
+
 }
 
 @media (max-width: 768px){
 
     #popup{
         width: 100%;
+        height: 100%;
+        
     }
 
     #popup2{
@@ -1241,13 +1354,20 @@ img {vertical-align: middle;}
     .heading{
         width: 100%;
     }
+
 }
 
 
 @media (max-width: 450px){
 
+    .mySlides img{
+        width: 30rem;
+        height: 30rem;
+    }
+
     #popup{
         width: 100%;
+        height: 70%;
     }
 
     #popup2{
