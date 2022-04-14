@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Syne+Tactile&display=swap');
 
  :root{
-    --brown: #833517;
+    --brown: #920136;
  }
 
 body{
-    background: #B43F11; 
+    background: #72203e; 
 }
 
 .header a{
     height: 9vh;
 }
-
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -112,6 +111,13 @@ section{
     color: #fcfcfc;
     margin-top: 5rem;
     margin-bottom:1rem; 
+}
+
+.header .logo img{
+    width: 8rem;
+    height: 5rem;
+    background-color: #44051c;
+    border-radius: 10rem;
 }
 
 .header .logo i{
@@ -686,6 +692,7 @@ section{
 
 #popup h2{
     font-size: 2.5rem;
+    margin-bottom: 3rem;
 }
 
 #popup p{
@@ -694,6 +701,8 @@ section{
     line-height: 1.5;
     text-align: left;
     text-transform: none;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 #popup{
@@ -713,7 +722,7 @@ section{
 #popup a{
     margin: 1rem;
     display: inline-block;
-    padding: .8rem 3rem;
+    padding: .9rem 3rem;
     background: white;
     color: rgb(0, 0, 0);
     font-size: 1.7rem;
@@ -721,7 +730,7 @@ section{
 }
 
 #popup a:hover{
-    background: rgb(88, 82, 82);
+    background: grey;
 }
 
 #popup.active{
@@ -729,19 +738,20 @@ section{
     visibility: visible;
     opacity: 1;
     transform: 0.5;
-    
 }
 
 #popup img{
     height: 20rem;
     width: 30rem;
     overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
 }
 
 /* POP UP 2 */
 
 #popup2 h2{
     font-size: 2.5rem;
+    margin-bottom: 3rem;
 }
 
 #popup2 p{
@@ -750,6 +760,8 @@ section{
     line-height: 1.5;
     text-align: left;
     text-transform: none;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 #popup2{
@@ -770,14 +782,14 @@ section{
     margin: 1rem;
     display: inline-block;
     padding: .8rem 3rem;
-    background: var(--brown);
+    background: white;
     color: rgb(0, 0, 0);
     font-size: 1.7rem;
     cursor: pointer;
 }
 
 #popup2 a:hover{
-    background: black;
+    background: grey;
 }
 
 #popup2.active2{
@@ -792,6 +804,7 @@ section{
     height: 20rem;
     width: 30rem;
     overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
 }
 
 
@@ -799,6 +812,7 @@ section{
 
 #popup3 h2{
     font-size: 2.5rem;
+    margin-bottom: 3rem;
 }
 
 #popup3 p{
@@ -807,6 +821,8 @@ section{
     line-height: 1.5;
     text-align: left;
     text-transform: none;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 #popup3{
@@ -834,7 +850,7 @@ section{
 }
 
 #popup3 a:hover{
-    background: black;
+    background: grey;
 }
 
 #popup3.active3{
@@ -849,12 +865,14 @@ section{
     height: 20rem;
     width: 30rem;
     overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
 }
 
 /* pop up 4 */
 
 #popup4 h2{
     font-size: 2.5rem;
+    margin-bottom: 3rem;
 }
 
 #popup4 p{
@@ -863,6 +881,8 @@ section{
     line-height: 1.5;
     text-align: left;
     text-transform: none;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 #popup4{
@@ -905,12 +925,14 @@ section{
     height: 20rem;
     width: 30rem;
     overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
 }
 
 /* POP  UP 5 */
 
 #popup5 h2{
     font-size: 2.5rem;
+    margin-bottom: 3rem;
 }
 
 #popup5 p{
@@ -919,6 +941,8 @@ section{
     line-height: 1.5;
     text-align: left;
     text-transform: none;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 #popup5{
@@ -962,12 +986,14 @@ section{
     height: 20rem;
     width: 30rem;
     overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
 }
 
 /* POP UP 6 */
 
 #popup6 h2{
     font-size: 2.5rem;
+    margin-bottom: 3rem;
 }
 
 #popup6 p{
@@ -976,6 +1002,8 @@ section{
     line-height: 1.5;
     text-align: left;
     text-transform: none;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 #popup6{
@@ -1019,12 +1047,14 @@ section{
     height: 20rem;
     width: 30rem;
     overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
 }
 
 /* POP UP 7 */
 
 #popup7 h2{
     font-size: 2.5rem;
+    margin-bottom: 3rem;
 }
 
 #popup7 p{
@@ -1033,6 +1063,8 @@ section{
     line-height: 1.5;
     text-align: left;
     text-transform: none;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 #popup7{
@@ -1075,12 +1107,14 @@ section{
     height: 20rem;
     width: 30rem;
     overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
 }
 
 /* POP UP 8 */
 
 #popup h2{
     font-size: 2.5rem;
+    margin-bottom: 3rem;
 }
 
 #popup8 p{
@@ -1089,6 +1123,8 @@ section{
     line-height: 1.5;
     text-align: left;
     text-transform: none;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 #popup8{
@@ -1127,9 +1163,10 @@ section{
 }
 
 #popup8 img{
-    height: 20rem;
+    height: 30rem;
     width: 30rem;
     overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
 }
 
 
@@ -1246,7 +1283,6 @@ img {vertical-align: middle;}
 
     #popup{
         width: 100%;
-        height: 100%;
     
     }
 
@@ -1292,8 +1328,6 @@ img {vertical-align: middle;}
 
     #popup{
         width: 100%;
-        height: 100%;
-        
     }
 
     #popup2{
@@ -1367,7 +1401,6 @@ img {vertical-align: middle;}
 
     #popup{
         width: 100%;
-        height: 70%;
     }
 
     #popup2{
