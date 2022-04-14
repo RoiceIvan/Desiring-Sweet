@@ -13,6 +13,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.container .signup{
+    background-color: rgba(250, 248, 248, 0.658);
+}
+
 .container{
     width: 450px;
     margin: 70px auto;
