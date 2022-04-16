@@ -29,13 +29,24 @@
 
 .sidebar-brand{
     height: 90px;
-    padding-left: 1rem 0rem 1rem 2rem;
+    padding-left: 5rem 0rem 1rem 2rem;
     color: #ffff;
+}
+
+
+.sidebar-brand img{
+    height: 3rem;
+    width: 3rem;
+    padding-left: 0;
+    background-color: #ee8ee6;
+    border-radius: 10rem;
 }
 
 .sidebar-brand span{
     display: inline-block;
-    padding-right: 1rem;
+    padding-right:3rem;
+    padding-left: 1rem;
+    padding-bottom: 3rem;
 }
 
 .sidebar-menu{
@@ -87,6 +98,7 @@
     color: var(--main-color);
     border-radius: 30px 0px 0px 30px;
 }
+
 
 #nav-toggle:checked ~ .main-content{
     margin-left: 70px;
@@ -151,14 +163,10 @@ header label span{
     outline: none;
 }
 
-.user-wrapper{
-    display: flex;
-    align-items: center;
-}
-
 .user-wrapper img{
     border-radius: 50%;
     margin-right: 1rem;
+    background: #fff;
 }
 
 .user-wrapper small{
@@ -357,6 +365,57 @@ tr td:last-child{
         left: 70px;
     }
 }
+
+.user-wrapper{
+    padding-right: -3rem;
+    display: flex;
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 3rem;
+    right: -2rem;
+    font-size: 18px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    }
+
+  .user-wrapper:hover .dropdown-content {
+    display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 960px) {
     .cards{
