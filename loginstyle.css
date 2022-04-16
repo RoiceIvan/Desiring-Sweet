@@ -99,11 +99,11 @@ span a{
 /* header and body */
 
 :root{
-    --brown: #833517;
+    --brown: #920136;
  }
 
 body{
-    background: #B43F11;   
+    background: #72203e; 
 }
 
 .header a{
@@ -147,47 +147,6 @@ section{
     padding:3rem 9%;
 }
 
-.heading{
-    background:url("img/heading-bg.jpg") no-repeat ;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    padding-top: 12rem;
-    padding-bottom: 8rem;
-}
-
-.heading h1{
-    color: #fff;
-    font-size: 4rem;
-}
-
-.title{
-    display: flex;
-    align-items: center;
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-    padding:1.2rem 0;
-    border-bottom: 0.1rem solid rgba(0,0,0,0.7);
-    color: #fff;
-}
-
-.title span{
-    color: #222;
-    padding-left: .7rem;
-
-}
-
-.title a{
-    margin-left:auto;
-    color:#222;
-    font-size: 1,5rem;
-}
-
-.title a:hover{
-    color: #fff;
-
-}
-
 .header{
     position: fixed;
     top: 0%;
@@ -207,12 +166,19 @@ section{
     font-size:18px;
     font-weight: bolder;
     color: #fcfcfc;
-    margin-top: 3.5rem;
-    margin-bottom:1.7rem; 
+    margin-top: 5rem;
+    margin-bottom:1rem; 
+}
+
+.header .logo img{
+    width: 8rem;
+    height: 5rem;
+    background-color: #44051c;
+    border-radius: 10rem;
 }
 
 .header .logo i{
-    color: #222;
+    color: rgb(255, 255, 255);
     padding-right: .5rem;
 
 }
@@ -223,14 +189,15 @@ section{
     margin: 0.2rem;
 }
 
-.header .navbar i{
+.header .navbar{
+    font-size: 1.7rem;
     color: #fff;
-    padding-inline-end: .5rem;
+    margin: 0.2rem;
 }
 
 .header .navbar a{
     font-size: 1.7rem;
-    color: #fff;
+    color: #ffffff;
     margin: 0 1rem;
 }
 
@@ -242,7 +209,7 @@ section{
     font-size: 2.5rem;
     margin-left: 1.7rem;
     cursor: pointer;
-    color: #fff;
+    color: #ffffff;
 }
 
 .header .icons a:hover{
@@ -252,7 +219,8 @@ section{
 .header .icons div{
     font-size: 2.0rem;
     margin-left: 1.7rem;
-    margin-top: 0rem;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
     cursor: pointer;
     color: #ffffff;
 }
@@ -266,30 +234,12 @@ section{
 
 }
 
-@keyframes fadeLeft{
-    0%{
-        opacity: 0;
-        transform: translateX(-5rem);
-    }
-}
 
-@keyframes fadeup{
-    0%{
-        opacity: 0;
-        transform: scale(0.5);
-    }
-}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
 
-@-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
   /* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
