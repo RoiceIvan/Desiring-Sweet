@@ -98,11 +98,11 @@ span a{
 /* header and body */
 
 :root{
-    --brown: #833517;
+    --brown: #920136;
  }
 
 body{
-    background: #B43F11;   
+    background: #72203e; 
 }
 
 .header a{
