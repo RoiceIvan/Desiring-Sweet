@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&family=Syne+Tactile&display=swap');
 
- :root{
+:root{
     --brown: #920136;
  }
 
@@ -121,7 +121,7 @@ section{
 }
 
 .header .logo i{
-    color: #222;
+    color: rgb(255, 255, 255);
     padding-right: .5rem;
 
 }
