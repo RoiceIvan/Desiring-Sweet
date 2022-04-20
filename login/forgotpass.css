@@ -14,7 +14,7 @@ body{
 }
 
 .container .signup{
-    background-color: rgba(250, 248, 248, 0.658);
+    background-color: #9b536c;
 }
 
 .container{
@@ -25,22 +25,21 @@ body{
 
 .signup{
     width: 50%;
-    background: #ffff;
+    background: #ecafc4;
     height: 60px;
     float: center;
     text-align: center;
     line-height: 60px;
-    cursor: pointer;
-    text-transform: uppercase;
+    /* text-transform: lowercase; */
     width: 100%;
 }
 .signup-form{
-    background: #ffff;
+    background: #ecafc4;
     box-sizing: border-box;
     padding: 40px;
     clear: both;
     width: 100%;
-    height: 500px;
+    height: 300px;
     /* padding-top: 10rem; */
 }
 
@@ -49,8 +48,8 @@ body{
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 25px;
-    border: 2px solid #e9eaea;
-    color:#3e3e40;
+    border: 2px solid #a54a44;
+    background-color:#ddcbd4;
     font-size: 14px;
     outline: none;
     transition: all 0.5s ease;
@@ -58,7 +57,6 @@ body{
 
 .input:focus{
     border: 2px solid #3e3e3e;
-    text-transform: lowercase;
 }
 
 .btn div{
@@ -67,7 +65,6 @@ body{
     height: 60px;
     text-align: center;
     line-height: 60px;
-    text-transform: uppercase;
     color: #ffff;
     font-weight: bold;
     letter-spacing: 1px;
@@ -116,7 +113,6 @@ body{
     box-sizing: border-box;
     outline: none;
     border: none;
-    text-transform: capitalize;
     text-decoration: none;
     transition: .2s linear;
     padding-bottom: -1rem;
