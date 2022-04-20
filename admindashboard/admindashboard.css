@@ -240,7 +240,7 @@ main{
     border-bottom: 1px solid #f0f0f0;
 }
 
-.card-header button{
+.card-header a{
     background: var(--main-color);
     border-radius: 10px;
     color: #fff;
@@ -400,7 +400,10 @@ tr td:last-child{
     }
 
 
-
+.card .card-header button:hover{
+    cursor: pointer;
+    background-color: rgb(160, 136, 136);
+}
 
 
 
