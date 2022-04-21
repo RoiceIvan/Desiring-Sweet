@@ -6,6 +6,15 @@
     --text-grey: #8390A2;
 }
 
+section{
+    padding:3rem 9%;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    
+}
 
 *{
     padding: 0;
@@ -400,6 +409,101 @@ tr td:last-child{
     }
 
 
+    
+
+
+
+/* CARTS */
+
+.products .title{
+    margin-top: 3rem;
+}
+
+.products .box-container{
+    display: -ms-grid;
+    display: inline-flex;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.products .box-container{
+    padding-top: 5rem;
+    display:inline-flex;
+}
+
+.products .box-container .box{
+    position: relative;
+    background: #f3f3f3;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.7);
+    border: 0.1rem solid rgba(0, 0, 0, 0.7);
+    width: 50%;
+    
+}
+
+.products .box-container .box:hover .icons{
+    top: 0;
+}
+
+.products .box-container .box .icons{
+    position: absolute;
+    top: -105%;
+    left: 0;
+    height: 10rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(243, 243, 243, 0.8);
+    gap: 1rem;
+    cursor:pointer;
+}
+
+.products .box-container .box .icons a{
+    font-size: 2rem;
+    height:5rem;
+    width: 5rem;
+    line-height:5rem;
+    background: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    color: #666;
+}
+
+.products .box-container .box .icons a:hover{
+    background: var(--brown);
+    color:black;
+    background-color: grey;
+}
+
+.products .box-container .box .img{
+    height: 10rem;
+    width: 1rem;
+    overflow: hidden;
+}
+
+.products .box-container .box .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+.products .box-container .box .content h3{
+    font-size: 1rem;
+    color: #222;
+}
+
+.products .box-container .box .content .price{
+    font-size: 1rem;
+    color:#222;
+    padding:0.5rem 0;
+}
+
+
 
 
 
@@ -425,6 +529,17 @@ tr td:last-child{
     .recent-grid{
         grid-template-columns: 60% 40%;
     }
+}
+
+.products .box-container .box .img{
+    width: 100%;
+}
+.products .box-container .box img{
+   width: 100%; 
+}
+
+.products .box-container{
+    display: inline-flex;
 }
 
 @media only screen and (max-width: 768px) {
@@ -509,13 +624,29 @@ tr td:last-child{
     }
 }
 
+.products .box-container .box .img{
+    width: 100%;
+}
+.products .box-container .box img{
+   width: 100%; 
+}
+
 @media only screen and (max-width: 560){
     .cards{
         grid-template-columns: 100%;
     }
 }
 
+.products .box-container .box .img{
+    width: 100%;
+}
+.products .box-container .box img{
+   width: 100%; 
+}
 
+.products .box-container{
+    display: grid;
+}
 
 
 

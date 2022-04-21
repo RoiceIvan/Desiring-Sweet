@@ -215,6 +215,10 @@ header label span{
 
 /* Edit profile */
 
+.container h1{
+    padding-left: 5rem;
+}
+
 .container{
     padding-left: 0rem;
     padding-top: 7rem;
@@ -224,12 +228,12 @@ header label span{
 .container .personal-info{
     padding-left:0rem;
     padding-top: 0rem;
-    padding-left: 15rem;
+    padding-left: 20rem;
 }
 
 .row .col-md-3 .text-center{
     padding-right: 0rem;
-    padding-left: 0rem;
+    padding-left: 5rem;
     width: 0;
     height: 0;
 }
