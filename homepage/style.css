@@ -110,7 +110,7 @@ section{
     font-weight: bolder;
     color: #fcfcfc;
     margin-top: 5rem;
-    margin-bottom:1rem; 
+    margin-bottom:3rem; 
 }
 
 .header .logo img{
@@ -148,6 +148,7 @@ section{
 }
 
 .header .icons a{
+    padding-top: 2rem;
     font-size: 2.5rem;
     margin-left: 1.7rem;
     cursor: pointer;
