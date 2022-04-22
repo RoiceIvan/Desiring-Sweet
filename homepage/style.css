@@ -74,7 +74,7 @@ section{
 }
 
 .title span{
-    color: #222;
+    color: rgb(255, 255, 255);
     padding-left: .7rem;
 
 }
@@ -371,18 +371,18 @@ section{
 }
 
 .about .content span{
-    color: #222;
+    color: rgb(255, 255, 255);
     font-size: 2.5rem;
 }
 
 .about .content h3{
-    color: #222;
+    color: rgb(253, 244, 244);
     font-size: 3rem;
     padding-top: .5rem;
 }
 
 .about .content p{
-    color: #222;
+    color: rgb(255, 251, 251);
     font-size: 1.4rem;
     line-height: 2;
     padding: 1rem 0;
@@ -545,7 +545,7 @@ section{
 }
 
 .contact .icons-container .icons h3{
-    color:#222;
+    color:rgb(255, 255, 255);
     font-size: 2rem;
     padding: 1rem 0;
 }
@@ -693,11 +693,12 @@ section{
 #popup h2{
     font-size: 2.5rem;
     margin-bottom: 3rem;
+    color:rgb(255, 255, 255);
 }
 
 #popup p{
     font-size: 1.4rem;
-    color:black;
+    color:rgb(255, 255, 255);
     line-height: 1.5;
     text-align: left;
     text-transform: none;
@@ -752,11 +753,12 @@ section{
 #popup2 h2{
     font-size: 2.5rem;
     margin-bottom: 3rem;
+    color:rgb(255, 255, 255);
 }
 
 #popup2 p{
     font-size: 1.4rem;
-    color:black;
+    color:rgb(255, 255, 255);
     line-height: 1.5;
     text-align: left;
     text-transform: none;
@@ -813,11 +815,12 @@ section{
 #popup3 h2{
     font-size: 2.5rem;
     margin-bottom: 3rem;
+    color:rgb(255, 255, 255);
 }
 
 #popup3 p{
     font-size: 1.4rem;
-    color:black;
+    color:rgb(255, 255, 255);
     line-height: 1.5;
     text-align: left;
     text-transform: none;
@@ -873,11 +876,12 @@ section{
 #popup4 h2{
     font-size: 2.5rem;
     margin-bottom: 3rem;
+    color:rgb(255, 255, 255);
 }
 
 #popup4 p{
     font-size: 1.4rem;
-    color:black;
+    color:rgb(255, 255, 255);
     line-height: 1.5;
     text-align: left;
     text-transform: none;
@@ -933,11 +937,12 @@ section{
 #popup5 h2{
     font-size: 2.5rem;
     margin-bottom: 3rem;
+    color:rgb(255, 255, 255);
 }
 
 #popup5 p{
     font-size: 1.4rem;
-    color:black;
+    color:rgb(255, 255, 255);
     line-height: 1.5;
     text-align: left;
     text-transform: none;
@@ -994,11 +999,12 @@ section{
 #popup6 h2{
     font-size: 2.5rem;
     margin-bottom: 3rem;
+    color:rgb(255, 255, 255);
 }
 
 #popup6 p{
     font-size: 1.4rem;
-    color:black;
+    color:rgb(255, 255, 255);
     line-height: 1.5;
     text-align: left;
     text-transform: none;
@@ -1055,11 +1061,12 @@ section{
 #popup7 h2{
     font-size: 2.5rem;
     margin-bottom: 3rem;
+    color:rgb(255, 255, 255);
 }
 
 #popup7 p{
     font-size: 1.4rem;
-    color:black;
+    color:rgb(255, 255, 255);
     line-height: 1.5;
     text-align: left;
     text-transform: none;
@@ -1115,11 +1122,12 @@ section{
 #popup h2{
     font-size: 2.5rem;
     margin-bottom: 3rem;
+    color:rgb(255, 255, 255);
 }
 
 #popup8 p{
     font-size: 1.4rem;
-    color:black;
+    color:rgb(255, 255, 255);
     line-height: 1.5;
     text-align: left;
     text-transform: none;
